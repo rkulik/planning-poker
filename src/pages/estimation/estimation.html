@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle *ngIf="!selectedItem">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Estimation</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <h1 text-center *ngIf="estimation">
+    {{estimation.value}}
+  </h1>
+</ion-content>

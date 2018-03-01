@@ -1,0 +1,15 @@
+page-estimations {
+  .estimations {
+    ion-card {
+      position: relative;
+      text-align: center;
+
+      .value {
+        font-size: 2em;
+        padding: 48px 0;
+        width: 100%;
+        font-weight: bold;
+      }
+    }
+  }
+}
